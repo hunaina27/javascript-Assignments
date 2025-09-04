@@ -3,8 +3,8 @@
 // alert("I am " + age + " years old");
 
 // Question 2
-// let visitNumber = 14;
-// alert("You have visited this site " + visitNumber + " times");
+let visitNumber = 14;
+alert("You have visited this site " + visitNumber + " times");
 
 // Question 3
 // let birthYear = 2006;

@@ -37,11 +37,11 @@
 // alert(book);
 
 // Question 8
-// document.write("Yah!I can write html content through javascript");
+document.write("Yah!I can write html content through javascript");
 
 // Question 9
-// var symbol = "“▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬” "
-// alert(symbol)
+var symbol = "“▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬” "
+alert(symbol)
 
 
 
