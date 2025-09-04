@@ -12,11 +12,11 @@
 // document.write("Data type of my declared variable is " + typeof birthYear);
 
 // Question 4
-// let visitorName = "John Doe";
-// let productTitle = "T-Shirts";
-// let quantity = 5;
+let visitorName = "John Doe";
+let productTitle = "T-Shirts";
+let quantity = 5;
 
-// document.write("<b>" + visitorName + "</b> ordered <b>" + quantity + " " + productTitle + "(s)</b> on XYZ Clothing store");
+document.write("<b>" + visitorName + "</b> ordered <b>" + quantity + " " + productTitle + "(s)</b> on XYZ Clothing store");
 
 
 
