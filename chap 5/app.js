@@ -30,7 +30,7 @@ document.write("<br> Value after increment is : ", x);
 x= x + 7;
 document.write("<br> Value after addition is : ", x );
 x--;
-document.write("<br> Value after increment is : ", x);
+document.write("<br> Value after decrement is : ", x);
 x = x % 3;
 document.write("<br> The remainder is : ", x);
 
