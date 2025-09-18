@@ -46,3 +46,5 @@ document.write(` result is: ${result}`);
 {
     let num = +prompt(" Enter a number ");
 }
+
+
