@@ -42,9 +42,6 @@ document.write(` result is: ${result}`);
     alert(`Welcome to my website, ${userName}`);
 }
 
-// Question 4
-{
-    let num = +prompt(" Enter a number ");
-}
+
 
 
