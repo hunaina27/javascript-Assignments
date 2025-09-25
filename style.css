@@ -62,7 +62,10 @@ nav {
   background: #1abc9c;
   border-radius: 6px;
 }
-
+span{
+  color: rgb(255, 255, 7);
+  
+}
 .navbar li ul {
   position: absolute;
   top: 45px;
