@@ -74,6 +74,8 @@ nav {
   min-width: 200px;
   border-radius: 6px;
   box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+  max-height: 400px;   
+  overflow-y: auto; 
 }
 
 .navbar li:hover ul {
