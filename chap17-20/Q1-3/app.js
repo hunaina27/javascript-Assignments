@@ -1,14 +1,19 @@
 // Question 1
-let arr = [[], [], []];
+const arr = [[], [], []];
 
 // Question 2
-let matrix = [
+const matrix = [
   [0, 1, 2, 3],
   [1, 0, 1, 2],
   [2, 1, 0, 1],
 ];
 
+for (let i = 0; i < matrix.length; i++) {
+  document.write(matrix[i].join(" ") + "<br>");
+}
+
 // Question 3
+document.write
 for (let i = 1; i <= 10; i++) {
-  console.log(i);
+  document.write(i + "<br>");
 }

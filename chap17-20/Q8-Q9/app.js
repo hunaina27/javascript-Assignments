@@ -1,5 +1,5 @@
 // Question 8
-let A = [24, 53, 78, 91, 12]
+const A = [24, 53, 78, 91, 12]
 let largest = A[0]
 
 for( let i = 1; i<=A.length; i++){
@@ -13,7 +13,7 @@ document.write("<br>")
 
 // Question 9
 document.write("<br>")
-let B = [24, 53, 78, 91, 12]
+const B = [24, 53, 78, 91, 12]
 let smallest = A[0]
 
 for( let i = 1; i<= B.length; i++){
