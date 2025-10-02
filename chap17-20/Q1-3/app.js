@@ -9,7 +9,10 @@ const matrix = [
 ];
 
 for (let i = 0; i < matrix.length; i++) {
-  document.write(matrix[i].join(" ") + "<br>");
+  for (let j = 0; j < matrix[i].length; j++) {
+    document.write(matrix[i][j] + " ");
+  }
+  document.write("<br>");
 }
 
 // Question 3
