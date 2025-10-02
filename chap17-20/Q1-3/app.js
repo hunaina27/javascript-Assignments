@@ -15,6 +15,8 @@ for (let i = 0; i < matrix.length; i++) {
   document.write("<br>");
 }
 
+document.write("<br>");
+
 // Question 3
 document.write
 for (let i = 1; i <= 10; i++) {
