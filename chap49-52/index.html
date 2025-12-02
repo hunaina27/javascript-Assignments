@@ -1,11 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <title>Combined JavaScript Tasks</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #333;
+        }
+
+        th,
+        td {
+            padding: 8px;
+            text-align: center;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        #more {
+            display: none;
+        }
+
+        #editForm {
+            margin-top: 10px;
+        }
+    </style>
 </head>
+
 <body>
+
+    <!-- 1. Signup Form -->
+    <h2>1. Signup Form</h2>
+    <form id="signupForm">
+        Name: <input type="text" id="name" required>
+        Email: <input type="email" id="email" required>
+        Password: <input type="password" id="password" required>
+        <button type="submit">Submit</button>
+    </form>
+    <h3>Submitted Data:</h3>
+    <div id="display"></div>
+    <hr>
+
+    <!-- 2. Read More -->
+    <h2>2. Item Details with Read More</h2>
+    <p id="item">
+        This is a short description of the item...
+        <span id="more"> Here is the full detail of the item. It contains all information about features, usage, and
+            specifications.</span>
+    </p>
+    <button onclick="readMore()" id="readBtn">Read More</button>
+    <hr>
+
+    <!-- 3. Student Table -->
+    <h2>3. Student Form & Table</h2>
+    <form id="studentForm">
+        Name: <input type="text" id="sName" required>
+        Age: <input type="number" id="sAge" required>
+        Grade: <input type="text" id="sGrade" required>
+        <button type="submit">Add Student</button>
+    </form>
+
+    <table id="studentTable">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Grade</th>
+            <th>Actions</th>
+        </tr>
+    </table>
+
+    <h3 id="editHeading" style="display:none;">Edit Student</h3>
+    <form id="editForm" style="display:none;">
+        Name: <input type="text" id="editName" required>
+        Age: <input type="number" id="editAge" required>
+        Grade: <input type="text" id="editGrade" required>
+        <button type="button" onclick="saveEdit()">Save</button>
+    </form>
+
     <script src="app.js"></script>
+
 </body>
+
 </html>
