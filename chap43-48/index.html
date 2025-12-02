@@ -5,7 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+    <title>JavaScript Events</title>
+    <style>
+     img {
+            width: 120px;
+            margin: 10px;
+            border: 1px solid #aaa;
+            cursor: pointer;
+        }
+        .mobile-container {
+            display: flex;
+        }
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+        
+    </style>
+</head>
 <body>
+
+<h2>1. Alert on link click</h2>
+<a href="#" onclick="linkAlert()">Mobile Phone lookup</a>
+
+<h2>2. Click on mobile images to show alert</h2>
+<div class="mobile-container">
+    <div>
+        <img src="https://villman.com/product_photos/apple_iphone6+_64gb.gif" onclick="purchaseAlert('iPhone 6 Plus')" alt="iPhone6Plus">
+        <p>iPhone6Plus</p>
+    </div>
+    <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ3uyVJpieqSF63RsL6NWCulWX1671_jnzuA&s" onclick="purchaseAlert('Galaxy S6 Edge Plus')" alt="GalaxyS6EdgePlus">
+        <p>GalaxyS6EdgePlus</p>
+    </div>
+    <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNGh_7eZarfAzezhtvM1qM5Jz7WY9fchAqfw&s" onclick="purchaseAlert('V10')" alt="V10">
+        <p>V10</p>
+    </div>
+    <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7SGNth7TZi2YvdcIl6lLlDHxWnuxN6Ig4PA&s" onclick="purchaseAlert('Huawei P8')" alt="HuaweiP8">
+        <p>HuaweiP8</p>
+    </div>
+</div>
+
+<h2>3. Student Records Table</h2>
+<table id="studentTable">
+    <tr>
+        <th>Name</th>
+        <th>Marks</th>
+        <th>Action</th>
+    </tr>
+    <tr>
+        <td>Ali</td>
+        <td>80</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+    </tr>
+    <tr>
+        <td>Mark</td>
+        <td>90</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+    </tr>
+    <tr>
+        <td>John</td>
+        <td>70</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+    </tr>
+</table>
+
+<h2>4. Change Image on Mouseover/Mouseout</h2>
+
+<img 
+        id="myImage" 
+        src="car1.avif" 
+        alt="Image" 
+        width="100%" 
+        height="100"
+        onmouseover="changeImage()" 
+        onmouseout="resetImage()"
+    >
+
+<h2>5. Counter Example</h2>
+<p>Counter: <span id="counterValue">0</span></p>
+<button onclick="increaseCounter()">Increase</button>
+<button onclick="decreaseCounter()">Decrease</button>
+
     <script src="app.js"></script>
 </body>
 </html>
